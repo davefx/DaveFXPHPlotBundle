@@ -6,11 +6,11 @@
 
     <!--
     <parameters>
-        <parameter key="noise_labs_nu_soap.example.class">NoiseLabs\Bundle\NuSOAPBundle\Example</parameter>
+        <parameter key="davefx_phplot.example.class">DaveFX\Bundle\PHPlotBundle\Example</parameter>
     </parameters>
 
     <services>
-        <service id="noise_labs_nu_soap.example" class="%noise_labs_nu_soap.example.class%">
+        <service id="davefx_phplot.example" class="%davefx_phplot.example.class%">
             <argument type="service" id="service_id" />
             <argument>plain_value</argument>
             <argument>%parameter_name%</argument>

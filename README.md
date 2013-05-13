@@ -1,11 +1,11 @@
-NoiselabsNuSOAP
-===============
+DaveFXPHPlotBundle
+==================
 
 [@php]:     http://php.net/                 "PHP: Hypertext Preprocessor"
-[@nusoap]:  http://nusoap.sourceforge.net/  "NuSOAP - SOAP Toolkit for PHP"
+[@phplot]:  http://phplot.sourceforge.net/  "PHPlot - PHPlot is a graph library for charts."
 [@symfony]: http://www.symfony.com/         "High Performance PHP Framework for Web Development"
 
-[Symfony2][@symfony] bundle for [NuSOAP - SOAP Toolkit for PHP][@nusoap].
+[Symfony2][@symfony] bundle for [PHPlot - Graph library for charts][@nusoap].
 
 Requirements
 ------------
@@ -25,21 +25,21 @@ http://getcomposer.org/ or just run the following command:
 curl -s http://getcomposer.org/installer | php
 ```
 
-### 1. Add the noiselabs/nusoap-bundle package and the nusoap repository in your composer.json
+### 1. Add the davefx/phplot-bundle package and the phplot repository in your composer.json
 
 ```js
 {
     "require": {
-        "noiselabs/nusoap-bundle": "dev-master"
+        "davefx/phplot-bundle": "dev-master"
     },
     "repositories": [
         {
             "type": "package",
             "package": {
-                "name": "nusphere/nusoap",
-                "version": "0.9.5",
+                "name": "phplot/phplot",
+                "version": "6.1.0",
                 "dist": {
-                    "url": "http://downloads.sourceforge.net/project/nusoap/nusoap/0.9.5/nusoap-0.9.5.zip",
+                    "url": "http://downloads.sourceforge.net/project/phplot/phplot/6.1.0/phplot-6.1.0.zip",
                     "type": "zip"
                 },
                 "autoload": {
@@ -70,7 +70,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new NoiseLabs\Bundle\NuSOAPBundle\NoiseLabsNuSOAPBundle(),
+        new DaveFX\Bundle\PHPlotBundle\DaveFXPHPlotBundle(),
     );
 }
 ```
@@ -80,7 +80,7 @@ Usage
 
 ```php
 
-$client = new \nusoap_client('http://example.com/url/to/some/valid.wsdl', true);
+$phplot = new \phplot();
 
-$response = $client->call('someSOAPMethod', array('param1'=>'foo', 'param2'=>'bar'));
+...
 ```

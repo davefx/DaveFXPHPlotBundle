@@ -1,13 +1,13 @@
 <?php
 /**
- * This file is part of NoiseLabs-NuSOAPBundle
+ * This file is part of DaveFX-PHPlotBundle
  *
- * NoiseLabs-NuSOAPBundle is free software; you can redistribute it
+ * DaveFX-PHPlotBundle is free software; you can redistribute it
  * and/or modify it under the terms of the GNU Lesser General Public
  * License as published by the Free Software Foundation; either
  * version 3 of the License, or (at your option) any later version.
  *
- * NoiseLabs-NuSOAPBundle is distributed in the hope that it will be
+ * DaveFX-PHPlotBundle is distributed in the hope that it will be
  * useful, but WITHOUT ANY WARRANTY; without even the implied warranty
  * of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  * Lesser General Public License for more details.
@@ -16,24 +16,24 @@
  * License along with NoiseLabs-NuSOAPBundle; if not, see
  * <http://www.gnu.org/licenses/>.
  *
- * Copyright (C) 2012-2013 Vítor Brandão
+ * Copyright (C) 2013 David Marín Carreño
  *
- * @category    NoiseLabs
- * @package     NuSOAPBundle
- * @copyright   (C) 2012-2013 Vítor Brandão <vitor@noiselabs.org>
+ * @category    DaveFX
+ * @package     PHPlotBundle
+ * @copyright   (C) 2013 David Marín Carreño <davefx@gmail.com>
  * @license     http://www.gnu.org/licenses/lgpl-3.0-standalone.html LGPL-3
- * @link        http://www.noiselabs.org
+ * @link        http://www.davefx.com
  */
 
-namespace NoiseLabs\Bundle\NuSOAPBundle;
+namespace DaveFX\Bundle\PHPlotBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
  * NuSOAP Bundle.
  *
- * @author Vítor Brandão <vitor@noiselabs.org>
+ * @author David Marín Carreño <davefx@gmail.com>
  */
-class NoiseLabsNuSOAPBundle extends Bundle
+class DaveFXPHPlotBundle extends Bundle
 {
 }

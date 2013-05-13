@@ -1,24 +1,24 @@
 {
-    "name": "noiselabs/nusoap-bundle",
+    "name": "davefx/phplot-bundle",
     "type": "symfony-bundle",
-    "description": "Symfony2 bundle for NuSOAP - SOAP Toolkit for PHP",
-    "keywords": ["soap", "symfony", "noiselabs"],
-    "homepage": "https://github.com/noiselabs/NoiselabsNuSOAPBundle",
+    "description": "Symfony2 bundle for PHPlot - Chart toolkit for PHP",
+    "keywords": ["davefx", "symfony", "phplot", "charts"],
+    "homepage": "https://github.com/davefx/DaveFXPHPlotBundle",
     "license": "LGPL-3.0",
     "authors": [
         {
-            "name": "Vítor Brandão",
-            "email": "noisebleed@noiselabs.org"
+            "name": "David Marín Carreño",
+            "email": "davefx@gmail.com"
         }
     ],
     "repositories": [
         {
             "type": "package",
             "package": {
-                "name": "nusphere/nusoap",
-                "version": "0.9.5",
+                "name": "phplot/phplot",
+                "version": "6.1.0",
                 "dist": {
-                    "url": "http://downloads.sourceforge.net/project/nusoap/nusoap/0.9.5/nusoap-0.9.5.zip",
+                    "url": "http://downloads.sourceforge.net/project/phplot/phplot/6.1.0/phplot-6.1.0.zip",
                     "type": "zip"
                 },
                 "autoload": {
@@ -30,11 +30,11 @@
     "require": {
         "php": ">=5.3.3",
         "symfony/framework-bundle": ">=2.0",
-        "nusphere/nusoap": "0.9.5"
+        "phplot/phplot": "6.1.0"
     },
     "autoload": {
-        "psr-0": { "NoiseLabs\\Bundle\\NuSOAPBundle": "" }
+        "psr-0": { "DaveFX\\Bundle\\PHPlotBundle": "" }
     },
-    "target-dir": "NoiseLabs/Bundle/NuSOAPBundle",
+    "target-dir": "DaveFX/Bundle/PHPlotBundle",
     "minimum-stability": "dev"
 }

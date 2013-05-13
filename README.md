@@ -5,7 +5,7 @@ DaveFXPHPlotBundle
 [@phplot]:  http://phplot.sourceforge.net/  "PHPlot - PHPlot is a graph library for charts."
 [@symfony]: http://www.symfony.com/         "High Performance PHP Framework for Web Development"
 
-[Symfony2][@symfony] bundle for [PHPlot - Graph library for charts][@nusoap].
+[Symfony2][@symfony] bundle for [PHPlot - Graph library for charts][@phplot].
 
 Requirements
 ------------

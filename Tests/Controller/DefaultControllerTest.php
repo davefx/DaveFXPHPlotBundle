@@ -1,6 +1,6 @@
 <?php
 
-namespace NoiseLabs\Bundle\NuSOAPBundle\Tests\Controller;
+namespace DaveFX\Bundle\PHPlotBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

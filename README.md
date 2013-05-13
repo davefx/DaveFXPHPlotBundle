@@ -108,4 +108,6 @@ ob_start();
 $plot->DrawGraph();
 $str = ob_get_clean();
 
+return new Response($str, 200, array("Content-type: image/png"));
+
 ```

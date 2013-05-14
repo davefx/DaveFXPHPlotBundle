@@ -31,23 +31,7 @@ curl -s http://getcomposer.org/installer | php
 {
     "require": {
         "davefx/phplot-bundle": "dev-master"
-    },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "phplot/phplot",
-                "version": "6.1.0",
-                "dist": {
-                    "url": "http://downloads.sourceforge.net/project/phplot/phplot/6.1.0/phplot-6.1.0.zip",
-                    "type": "zip"
-                },
-                "autoload": {
-                    "classmap": ["lib/"]
-                }
-            }
-        }
-    ],
+    }
 }
 ```
 Now tell composer to download the bundle by running the command:

@@ -11,26 +11,10 @@
             "email": "davefx@gmail.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "phplot/phplot",
-                "version": "6.1.0",
-                "dist": {
-                    "url": "http://downloads.sourceforge.net/project/phplot/phplot/6.1.0/phplot-6.1.0.zip",
-                    "type": "zip"
-                },
-                "autoload": {
-                    "classmap": ["lib/"]
-                }
-            }
-        }
-    ],
     "require": {
         "php": ">=5.3.3",
         "symfony/framework-bundle": ">=2.0",
-        "phplot/phplot": "6.1.0"
+        "davefx/phplot": "6.1.0"
     },
     "autoload": {
         "psr-0": { "DaveFX\\Bundle\\PHPlotBundle": "" }
